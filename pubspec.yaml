@@ -126,13 +126,7 @@ toly:
     assets_dir: 'assets/iconfont'
     file_dist: 'packages/app/lib/app/res/toly_icon.dart'
 
-
-
-
-
-
-
-
-
-
-
+module:
+  androidX: true
+  androidPackage: com.example.flutter_unit
+  iosBundleIdentifier: com.example.flutter_unit
