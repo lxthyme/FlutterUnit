@@ -107,7 +107,7 @@ class _UnitRailNavigationState extends State<UnitRailNavigation>
               crossAxisAlignment: WrapCrossAlignment.center,
               children: const [
                 CircleImage(
-                  image: AssetImage('assets/images/icon_head.webp'),
+                  image: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
                   size: 60,
                 ),
                 Text(

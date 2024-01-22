@@ -61,6 +61,7 @@ class _CustomBackdropFilterState extends State<CustomBackdropFilter> {
           child: Image.asset(
             'assets/images/sabar.webp',
             fit: BoxFit.cover,
+            package: 'flutter_unit',
           ),
         ),
         SizedBox(
@@ -69,6 +70,7 @@ class _CustomBackdropFilterState extends State<CustomBackdropFilter> {
           child: Image.asset(
             'assets/images/wy_200x300.webp',
             fit: BoxFit.cover,
+            package: 'flutter_unit',
           ),
         ),
       ],

@@ -44,7 +44,7 @@ class SliverToBoxAdapterDemo extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 10),
           color: Colors.grey.withAlpha(22),
           child: ListTile(
-            leading: Image.asset("assets/images/icon_head.webp"),
+            leading: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
             title: const Text("以梦为马"),
             subtitle: const Text("海子"),
             selected: true,
@@ -90,6 +90,7 @@ class SliverToBoxAdapterDemo extends StatelessWidget {
         background: Image.asset(
           "assets/images/caver.webp",
           fit: BoxFit.cover,
+          package: 'flutter_unit',
         ),
       ),
     );
@@ -97,7 +98,7 @@ class SliverToBoxAdapterDemo extends StatelessWidget {
 
   Widget _buildLeading() => Container(
       margin: const EdgeInsets.all(10),
-      child: Image.asset('assets/images/icon_head.webp'));
+      child: Image.asset('assets/images/icon_head.webp', package: 'flutter_unit'));
 
   List<Widget> _buildActions() => <Widget>[
         IconButton(

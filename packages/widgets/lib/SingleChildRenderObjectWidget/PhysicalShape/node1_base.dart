@@ -30,6 +30,7 @@ class PhysicalShapeDemo extends StatelessWidget {
           child: Image.asset(
             'assets/images/caver.webp',
             fit: BoxFit.cover,
+            package: 'flutter_unit',
           ),
           clipBehavior: Clip.hardEdge,
           clipper: const ShapeBorderClipper(

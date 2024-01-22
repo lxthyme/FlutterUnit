@@ -27,6 +27,7 @@ class DivisionsGridPage extends StatelessWidget {
             subdivisions: 4,
             child: Image.asset(
               "assets/images/wy_300x200.webp",
+              package: 'flutter_unit',
               fit: BoxFit.cover,
             )));
   }

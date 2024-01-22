@@ -16,6 +16,7 @@ class DialogAbout extends StatelessWidget {
       children: <Widget>[
         Image.asset(
           "assets/images/icon_head.webp",
+          package: 'flutter_unit',
           width: 30,
           height: 30,
         ),

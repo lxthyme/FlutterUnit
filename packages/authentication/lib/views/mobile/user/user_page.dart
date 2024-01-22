@@ -36,6 +36,7 @@ class UserPage extends StatelessWidget {
                 child: Image.asset(
                'assets/images/$image',
                   fit: BoxFit.cover,
+                  package: 'flutter_unit',
                 ),
               ),
               Positioned(
@@ -103,7 +104,7 @@ class UserPage extends StatelessWidget {
           size: 80,
           shadowColor: Theme.of(context).primaryColor.withAlpha(33),
           // image: NetworkImage(state.user.userAvatar),
-          image: const AssetImage("assets/images/icon_head.webp"),
+          image: const AssetImage("assets/images/icon_head.webp", package: 'flutter_unit'),
         ),
       );
     }
@@ -114,7 +115,7 @@ class UserPage extends StatelessWidget {
       child: CircleImage(
         size: 80,
         shadowColor: Theme.of(context).primaryColor.withAlpha(33),
-        image: const AssetImage("assets/images/icon_head.webp"),
+        image: const AssetImage("assets/images/icon_head.webp", package: 'flutter_unit'),
       ),
     );
   }

@@ -45,6 +45,7 @@ class _AnimatedPhysicalModelDemoState extends State<AnimatedPhysicalModelDemo> {
             child: Image.asset(
               'assets/images/caver.webp',
               fit: BoxFit.cover,
+              package: 'flutter_unit',
             ),
             borderRadius: BorderRadius.all(Radius.circular(flag? 10:75)),
             clipBehavior: Clip.hardEdge,

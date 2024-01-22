@@ -32,6 +32,7 @@ class PhysicalModelDemo extends StatelessWidget{
               child: Image.asset(
                 'assets/images/caver.webp',
                 fit: BoxFit.cover,
+                package: 'flutter_unit',
               ),
               clipBehavior: Clip.hardEdge,
               shape: BoxShape.circle,
@@ -47,6 +48,7 @@ class PhysicalModelDemo extends StatelessWidget{
               child: Image.asset(
                 'assets/images/caver.webp',
                 fit: BoxFit.cover,
+                package: 'flutter_unit',
               ),
               borderRadius: const BorderRadius.all(Radius.circular(20)),
               clipBehavior: Clip.hardEdge,

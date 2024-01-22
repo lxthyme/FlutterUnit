@@ -31,6 +31,7 @@ class CustomCupertinoNavigationBar extends StatelessWidget {
         "assets/images/icon_head.webp",
         width: 25.0,
         height: 25.0,
+        package: 'flutter_unit',
       ),
       backgroundColor: const Color(0xfff1f1f1),
       padding: const EdgeInsetsDirectional.only(start: 10,end: 20),

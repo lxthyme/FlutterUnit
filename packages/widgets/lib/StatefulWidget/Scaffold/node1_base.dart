@@ -87,6 +87,7 @@ class _CustomScaffoldState extends State with SingleTickerProviderStateMixin {
         elevation: 1,
         child: Image.asset(
           'assets/images/sabar.webp',
+          package: 'flutter_unit',
           fit: BoxFit.cover,
         ),
       );

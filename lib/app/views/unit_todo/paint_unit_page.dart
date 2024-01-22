@@ -23,7 +23,7 @@ class PaintUnitPage extends StatelessWidget {
             child: Column(
               children: const [
                 CircleImage(
-                  image: AssetImage('assets/images/icon_head.webp'),
+                  image: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
                   size: 80,
                 ),
                 SizedBox(height: 10,),

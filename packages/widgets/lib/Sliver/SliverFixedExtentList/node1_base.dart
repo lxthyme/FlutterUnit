@@ -79,6 +79,7 @@ class _SliverFixedExtentListDemoState extends State<SliverFixedExtentListDemo> {
         background: Image.asset(
           "assets/images/caver.webp",
           fit: BoxFit.cover,
+          package: 'flutter_unit',
         ),
       ),
     );
@@ -86,7 +87,7 @@ class _SliverFixedExtentListDemoState extends State<SliverFixedExtentListDemo> {
 
   Widget _buildLeading() => Container(
       margin: const EdgeInsets.all(10),
-      child: Image.asset('assets/images/icon_head.webp'));
+      child: Image.asset('assets/images/icon_head.webp', package: 'flutter_unit'));
 
   List<Widget> _buildActions() => <Widget>[
         IconButton(

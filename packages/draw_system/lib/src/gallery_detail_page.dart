@@ -50,7 +50,7 @@ class _GalleryDetailPageState extends State<GalleryDetailPage> {
   // 顶部 bar 圆角装饰
   BoxDecoration get topBoxDecoration => BoxDecoration(
       image: DecorationImage(
-          fit: BoxFit.cover, image: AssetImage(widget.galleryInfo.image)),
+          fit: BoxFit.cover, image: AssetImage(widget.galleryInfo.image, package: 'flutter_unit')),
       borderRadius: const BorderRadius.only(
         bottomLeft: Radius.circular(10),
         bottomRight: Radius.circular(10),

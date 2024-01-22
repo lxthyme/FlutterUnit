@@ -74,7 +74,7 @@ class _DropdownMenuNode3State extends State<DropdownMenuNode3> {
                 radius: 14,
                 foregroundColor: Colors.transparent,
                 backgroundImage:
-                AssetImage('assets/images/head_icon/${_selectUser!.image}'),
+                AssetImage('assets/images/head_icon/${_selectUser!.image}', package: 'flutter_unit'),
               ),
             ),
           ):null,
@@ -119,7 +119,7 @@ class _UserItem extends StatelessWidget {
           CircleAvatar(
             foregroundColor: Colors.transparent,
             backgroundImage:
-            AssetImage('assets/images/head_icon/${user.image}'),
+            AssetImage('assets/images/head_icon/${user.image}', package: 'flutter_unit'),
           ),
           const SizedBox(width: 20),
           Column(

@@ -46,7 +46,7 @@ class WidgetDetailPanel extends StatelessWidget {
               child: ClipRRect(
                   borderRadius: const BorderRadius.all(Radius.circular(8)),
                   child: model.image == null
-                      ? Image.asset('assets/images/caver.webp')
+                      ? Image.asset('assets/images/caver.webp', package: 'flutter_unit')
                       : Image(image: model.image!))),
         ),
       ),

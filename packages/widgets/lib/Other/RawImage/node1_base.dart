@@ -86,7 +86,7 @@ class _RawImageDemoState extends State<RawImageDemo> {
 
   //读取 assets 中的图片
   Future<ui.Image> loadImageFromAssets(String path) async {
-    ByteData data = await rootBundle.load(path);
+    ByteData data = await rootBundle.load('packages/flutter_unit/$path');
     List<int> bytes = data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
     return decodeImageFromList(Uint8List.fromList(bytes));
   }

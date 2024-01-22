@@ -5,7 +5,7 @@ class GalleryUnitBloc extends Cubit<String>{
   GalleryUnitBloc() : super('');
 
   void loadGalleryInfo() async{
-    String result = await rootBundle.loadString('assets/data/gallery_info.json');
+    String result = await rootBundle.loadString('packages/flutter_unit/assets/data/gallery_info.json');
     emit(result);
   }
 }

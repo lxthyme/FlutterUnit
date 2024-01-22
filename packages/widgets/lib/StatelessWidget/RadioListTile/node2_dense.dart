@@ -58,7 +58,7 @@ class _DenseRadioListTileState extends State<DenseRadioListTile> {
                     subtitle: Text(languages[type]!.subTitle),
                     selected: _type == type,
                     secondary: CircleAvatar(
-                      backgroundImage: AssetImage(languages[type]!.imgUrl),
+                      backgroundImage: AssetImage(languages[type]!.imgUrl, package: 'flutter_unit'),
                     ),
                     onChanged: (ItemType? type) =>
                         setState(() => _type = type ?? _type),

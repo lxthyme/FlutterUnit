@@ -23,6 +23,7 @@ class CustomClipRRect extends StatelessWidget {
         "assets/images/wy_300x200.webp",
         width: 150,
         height: 100,
+        package: 'flutter_unit',
       ),
     );
   }

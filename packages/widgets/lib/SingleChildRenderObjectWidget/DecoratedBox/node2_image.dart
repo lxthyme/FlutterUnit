@@ -23,6 +23,7 @@ class ShapeImageDemo extends StatelessWidget {
               fit: BoxFit.cover,
               image: AssetImage(
                 'assets/images/wy_200x300.webp',
+                package: 'flutter_unit',
               ))),
       child: SizedBox(
         height: 80,

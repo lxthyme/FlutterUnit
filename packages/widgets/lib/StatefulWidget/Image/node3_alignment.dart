@@ -37,7 +37,7 @@ class AlignmentImage extends StatelessWidget {
           height: 60,
           color: Colors.grey.withAlpha(88),
           child: Image(
-            image: const AssetImage("assets/images/wy_30x20.webp"),
+            image: const AssetImage("assets/images/wy_30x20.webp", package: 'flutter_unit'),
             alignment: alignment,
           )),
       Text(alignment.toString().split(".")[1])

@@ -28,7 +28,7 @@ class LoadImage extends StatelessWidget {
     return Wrap(
       spacing: 10,
       children: [
-        Image.asset(assetsImagePath, height: 80, width: 80),
+        Image.asset(assetsImagePath, height: 80, width: 80, package: 'flutter_unit'),
         _loadFromNet(),
       ],
     );

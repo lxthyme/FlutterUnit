@@ -37,7 +37,7 @@ class _CustomSwitchListTileState extends State<CustomSwitchListTile> {
         inactiveTrackColor: Colors.blue.withAlpha(88),
         activeColor: Colors.orangeAccent,
         activeTrackColor: Colors.orange,
-        secondary: Image.asset("assets/images/icon_head.webp"),
+        secondary: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
         title: const Text("张风捷特烈"),
         subtitle: const Text("@万花过尽知无物"),
         onChanged: (v) => setState(() => _value = !_value),

@@ -27,7 +27,7 @@ class PressRawChip extends StatelessWidget {
       padding: const EdgeInsets.all(5),
       labelPadding: const EdgeInsets.all(3),
       label: const Text('张风捷特烈'),
-      avatar: Image.asset("assets/images/icon_head.webp"),
+      avatar: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
       elevation: 3,
       pressElevation: 5,
       shadowColor: Colors.orangeAccent,

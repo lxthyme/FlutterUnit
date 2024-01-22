@@ -30,7 +30,7 @@ class CircleFlow extends StatelessWidget {
       child: Flow(
         delegate: _CircleFlowDelegate(),
         children: data
-            .map((e) => CircleAvatar(backgroundImage: AssetImage(e)))
+            .map((e) => CircleAvatar(backgroundImage: AssetImage(e, package: 'flutter_unit')))
             .toList(),
       ),
     );

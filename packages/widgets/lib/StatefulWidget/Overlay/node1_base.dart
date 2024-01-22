@@ -87,7 +87,7 @@ _buildFloating() => GestureDetector(
         decoration: const BoxDecoration(
           shape: BoxShape.circle,
           image: DecorationImage(
-              image: AssetImage('assets/images/icon_head.webp')),
+              image: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit')),
         ),
       ),
     ));

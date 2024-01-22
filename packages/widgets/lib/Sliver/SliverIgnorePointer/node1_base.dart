@@ -54,7 +54,7 @@ class _SliverIgnorePointerDemoState extends State<SliverIgnorePointerDemo> {
                 decoration: const BoxDecoration(
                     image: DecorationImage(
                         fit: BoxFit.cover,
-                        image: AssetImage("assets/images/sabar_bar.webp"))),
+                        image: AssetImage("assets/images/sabar_bar.webp", package: 'flutter_unit'))),
                 // // color: Colors.teal[100],
                 child: _buildBottomChild(),
               ),
@@ -125,7 +125,7 @@ class _SliverIgnorePointerDemoState extends State<SliverIgnorePointerDemo> {
       expandedHeight: 120.0,
       leading: Container(
           margin: const EdgeInsets.all(10),
-          child: Image.asset('assets/images/icon_head.webp')),
+          child: Image.asset('assets/images/icon_head.webp', package: 'flutter_unit')),
       title: const Text('张风捷特烈'),
       actions: _buildActions(),
       elevation: 5,
@@ -137,6 +137,7 @@ class _SliverIgnorePointerDemoState extends State<SliverIgnorePointerDemo> {
         background: Image.asset(
           "assets/images/caver.webp",
           fit: BoxFit.cover,
+          package: 'flutter_unit',
         ),
       ),
     );

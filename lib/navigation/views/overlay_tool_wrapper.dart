@@ -114,7 +114,7 @@ class OverlayToolWrapperState extends State<OverlayToolWrapper>
               decoration: BoxDecoration(
                   color: Colors.blue,
                   image: const DecorationImage(
-                      image: AssetImage('assets/images/icon_head.webp')),
+                      image: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit')),
                   borderRadius: BorderRadius.circular(menuSize / 2)),
             ),
           ),

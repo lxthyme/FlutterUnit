@@ -25,7 +25,7 @@ class RepeatImage extends StatelessWidget {
             height: 60,
             color: Colors.red,
             child: Image(
-                image: const AssetImage("assets/images/wy_30x20.webp"),
+                image: const AssetImage("assets/images/wy_30x20.webp", package: 'flutter_unit'),
                 repeat: mode)),
         Text(mode.toString().split(".")[1])
       ]))

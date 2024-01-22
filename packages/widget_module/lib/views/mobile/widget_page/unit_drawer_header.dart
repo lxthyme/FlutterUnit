@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /// create by 张风捷特烈 on 2020-04-22
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 
 class UnitDrawerHeader extends StatelessWidget {
   final Color color;
@@ -16,7 +16,7 @@ class UnitDrawerHeader extends StatelessWidget {
       padding: const EdgeInsets.only(top: 10, left: 15),
       decoration: const BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('assets/images/wy_300x200_filter.webp'),
+            image: AssetImage('assets/images/wy_300x200_filter.webp', package: 'flutter_unit'),
             fit: BoxFit.cover),
       ),
       child: Column(

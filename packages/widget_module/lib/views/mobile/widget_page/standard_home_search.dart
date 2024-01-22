@@ -24,7 +24,7 @@ class StandardHomeSearch extends StatelessWidget implements PreferredSizeWidget 
             onPressed: () => _openDrawer(context),
             child: const CircleAvatar(
               radius: 16,
-              backgroundImage: AssetImage('assets/images/icon_head.webp'),
+              backgroundImage: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
             ),
           ),
           Expanded(

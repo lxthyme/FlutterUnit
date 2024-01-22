@@ -23,7 +23,7 @@ class CustomCircleAvatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CircleAvatar(
       radius: 50,
-      backgroundImage: AssetImage("assets/images/wy_200x300.webp"),
+      backgroundImage: AssetImage("assets/images/wy_200x300.webp", package: 'flutter_unit'),
       foregroundColor: Colors.white,
       child: Icon(
         Icons.check,

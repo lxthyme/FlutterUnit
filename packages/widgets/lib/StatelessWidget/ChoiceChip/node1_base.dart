@@ -37,7 +37,7 @@ class _CustomChoiceChipState extends State<CustomChoiceChip> {
         style: const TextStyle(fontSize: 16),
       ),
       backgroundColor: Colors.grey.withAlpha(66),
-      avatar: Image.asset("assets/images/icon_head.webp"),
+      avatar: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
       selectedColor: Colors.orangeAccent.withAlpha(44),
       selectedShadowColor: Colors.blue,
       shadowColor: Colors.orangeAccent,

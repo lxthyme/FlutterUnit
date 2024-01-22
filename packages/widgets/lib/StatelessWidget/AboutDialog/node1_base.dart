@@ -55,7 +55,7 @@ class CustomAboutDialog extends StatelessWidget {
             margin: const EdgeInsets.only(top: 20),
             width: 80,
             height: 80,
-            child: Image.asset('assets/images/icon_head.webp')),
+            child: Image.asset('assets/images/icon_head.webp', package: 'flutter_unit')),
         Container(
             margin: const EdgeInsets.only(top: 10),
             alignment: Alignment.center,

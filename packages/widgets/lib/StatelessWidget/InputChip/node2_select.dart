@@ -31,7 +31,7 @@ class _SelectInputChipState extends State<SelectInputChip> {
       labelPadding: const EdgeInsets.all(3),
       label: const Text("This is a InputChip."),
       backgroundColor: Colors.grey.withAlpha(66),
-      avatar: Image.asset("assets/images/icon_head.webp"),
+      avatar: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
       selectedColor: Colors.orangeAccent.withAlpha(88),
       selectedShadowColor: Colors.blue,
       shadowColor: Colors.orangeAccent,

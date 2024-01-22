@@ -28,7 +28,7 @@ class CustomActionChip extends StatelessWidget {
       labelPadding: const EdgeInsets.all(3),
       label: const Text("This is a ActionChip."),
       backgroundColor: Colors.grey.withAlpha(66),
-      avatar: Image.asset("assets/images/icon_head.webp"),
+      avatar: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
       shadowColor: Colors.orangeAccent,
       elevation: 3,
       pressElevation: 5,

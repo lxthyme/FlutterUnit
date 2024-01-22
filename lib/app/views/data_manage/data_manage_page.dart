@@ -74,7 +74,7 @@ class DataManagePage extends StatelessWidget {
   _recallDatabase(BuildContext context) async {
     String databasesPath = await getDatabasesPath();
     String dbPath = path.join(databasesPath, "flutter.db");
-    ByteData data = await rootBundle.load(path.join("assets", "flutter.db"));
+    ByteData data = await rootBundle.load(path.join("packages/flutter_unit/assets", "flutter.db"));
     List<int> bytes =
         data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
     await File(dbPath).writeAsBytes(bytes, flush: true);

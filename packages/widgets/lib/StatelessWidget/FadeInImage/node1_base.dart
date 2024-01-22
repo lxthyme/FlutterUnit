@@ -25,7 +25,7 @@ class CustomFadeInImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String placeholder = "assets/images/icon_head.webp";
+    String placeholder = "packages/flutter_unit/assets/images/icon_head.webp";
     String img =
         "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/"
         "15739960c2da4de3a263eeabcb60057f~tplv-k3u1fbpfcp-zoom-crop-mark"

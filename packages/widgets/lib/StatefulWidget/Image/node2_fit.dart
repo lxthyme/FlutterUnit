@@ -33,7 +33,7 @@ class _FitImageState extends State<FitImage> {
           child: Image(
               image: AssetImage(!_smallImage
                   ? "assets/images/wy_300x200.webp"
-                  : "assets/images/wy_30x20.webp"),
+                  : "assets/images/wy_30x20.webp", package: 'flutter_unit'),
               fit: mode)),
       Text(mode.toString().split(".")[1])
     ])).toList();

@@ -23,6 +23,7 @@ class RichTextWithWidget extends StatelessWidget {
               child: Image.asset(
                 'assets/images/icon_head.webp',
                 width: 30,
+                package: 'flutter_unit',
               ),
               alignment: PlaceholderAlignment.baseline,
               baseline: TextBaseline.ideographic),

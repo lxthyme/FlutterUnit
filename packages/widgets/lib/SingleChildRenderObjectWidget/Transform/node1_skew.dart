@@ -56,6 +56,7 @@ class _SkewTransformState extends State<SkewTransform> {
           child: Image.asset(
             'assets/images/wy_300x200.webp',
             fit: BoxFit.cover,
+            package: 'flutter_unit',
           )),
     );
   }

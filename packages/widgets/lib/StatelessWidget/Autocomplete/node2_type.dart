@@ -171,7 +171,7 @@ class _UserItem extends StatelessWidget {
             CircleAvatar(
               foregroundColor: Colors.transparent,
               backgroundImage:
-                  AssetImage('assets/images/head_icon/${user.image}'),
+                  AssetImage('assets/images/head_icon/${user.image}', package: 'flutter_unit'),
             ),
             const SizedBox(width: 20),
             Column(

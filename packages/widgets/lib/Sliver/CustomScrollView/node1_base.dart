@@ -73,7 +73,7 @@ class CustomScrollViewDemo extends StatelessWidget {
       expandedHeight: 190.0,
       leading: Container(
           margin: const EdgeInsets.all(10),
-          child: Image.asset('assets/images/icon_head.webp')),
+          child: Image.asset('assets/images/icon_head.webp', package: 'flutter_unit')),
       flexibleSpace: FlexibleSpaceBar(
         //伸展处布局
         titlePadding: const EdgeInsets.only(left: 55, bottom: 15), //标题边距
@@ -92,6 +92,7 @@ class CustomScrollViewDemo extends StatelessWidget {
         background: Image.asset(
           "assets/images/caver.webp",
           fit: BoxFit.cover,
+          package: 'flutter_unit',
         ),
       ),
     );

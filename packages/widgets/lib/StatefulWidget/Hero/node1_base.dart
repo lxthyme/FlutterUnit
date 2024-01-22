@@ -27,6 +27,7 @@ class CustomHero extends StatelessWidget {
           width: 60,
           height: 60,
           fit: BoxFit.cover,
+          package: 'flutter_unit',
         ),
       ),
     );
@@ -70,6 +71,7 @@ class TargetPage extends StatelessWidget {
           backgroundColor: Colors.transparent,
           backgroundImage: AssetImage(
             "assets/images/icon_head.webp",
+            package: 'flutter_unit',
           ),
         ),
       ),

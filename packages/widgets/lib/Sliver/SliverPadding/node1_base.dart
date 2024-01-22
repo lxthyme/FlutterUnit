@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /// create by 张风捷特烈 on 2020-03-31
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 //    {
 //      "widgetId": 191,
 //      "name": 'SliverPadding基本使用',
@@ -70,6 +70,7 @@ class SliverPaddingDemo extends StatelessWidget {
         background: Image.asset(
           "assets/images/caver.webp",
           fit: BoxFit.cover,
+          package: 'flutter_unit',
         ),
       ),
     );
@@ -77,7 +78,7 @@ class SliverPaddingDemo extends StatelessWidget {
 
   Widget _buildLeading() => Container(
       margin: const EdgeInsets.all(10),
-      child: Image.asset('assets/images/icon_head.webp'));
+      child: Image.asset('assets/images/icon_head.webp', package: 'flutter_unit'));
 
   List<Widget> _buildActions() => [
     IconButton(

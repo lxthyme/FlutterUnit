@@ -47,6 +47,7 @@ class NestedScrollViewDemo extends StatelessWidget {
                         background: Image.asset(
                           "assets/images/wy_300x200_filter.webp",
                           fit: BoxFit.cover,
+                          package: 'flutter_unit',
                         ),
                       ),
                       bottom: TabBar(

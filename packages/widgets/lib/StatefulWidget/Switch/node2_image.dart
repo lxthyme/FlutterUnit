@@ -36,8 +36,8 @@ class _ImageSwitchState extends State<ImageSwitch> {
           .map((e) =>
           Switch(
               value: _checked,
-              inactiveThumbImage: AssetImage(e),
-              activeThumbImage: const AssetImage('assets/images/icon_head.webp'),
+              inactiveThumbImage: AssetImage(e, package: 'flutter_unit'),
+              activeThumbImage: const AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
               onChanged: (v) {
                 setState(() => _checked = v);
               }))
@@ -45,4 +45,3 @@ class _ImageSwitchState extends State<ImageSwitch> {
     );
   }
 }
-

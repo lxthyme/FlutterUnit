@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 /// create by 张风捷特烈 on 2020/4/30
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 
 //    {
 //      "widgetId": 78,
@@ -44,6 +44,7 @@ class _R3C2State extends State<R3C2> {
               child: Image.asset(
                 'assets/images/wy_300x200.webp',
                 fit: BoxFit.cover,
+                package: 'flutter_unit',
               )),
         ),
         _buildSliders()

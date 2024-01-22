@@ -26,7 +26,7 @@ class BlendModeImage extends StatelessWidget {
             height: 60,
             color: Colors.red,
             child: Image(
-                image: const AssetImage("assets/images/icon_head.webp"),
+                image: const AssetImage("assets/images/icon_head.webp", package: 'flutter_unit'),
                 color: Colors.blue.withAlpha(88),
                 colorBlendMode: mode)),
         Text(mode.toString().split(".")[1])

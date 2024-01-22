@@ -39,7 +39,7 @@ class AppStartRepository{
     if (!dir.existsSync()) {
       await dir.create(recursive: true);
     }
-    ByteData data = await rootBundle.load("assets/flutter.db");
+    ByteData data = await rootBundle.load("packages/flutter_unit/assets/flutter.db");
     List<int> bytes =
     data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
     await File(dbPath).writeAsBytes(bytes, flush: true);
@@ -49,7 +49,7 @@ class AppStartRepository{
 
   Future<bool> _checkShouldCopy(String dbPath, SharedPreferences prefs) async {
     bool shouldCopy = false;
-    String versionStr = await rootBundle.loadString('assets/version.json');
+    String versionStr = await rootBundle.loadString('packages/flutter_unit/assets/version.json');
     int dbVersion = await json.decode(versionStr)['dbVersion'];
     int versionInSP = prefs.getInt(SpKey.dbVersionKey) ?? -1;
 

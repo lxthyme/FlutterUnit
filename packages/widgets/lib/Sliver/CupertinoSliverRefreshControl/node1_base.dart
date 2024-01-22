@@ -87,7 +87,7 @@ class _CupertinoSliverRefreshControlDemoState
       expandedHeight: 120.0,
       leading: Container(
           margin: const EdgeInsets.all(10),
-          child: Image.asset('assets/images/icon_head.webp')),
+          child: Image.asset('assets/images/icon_head.webp', package: 'flutter_unit')),
       title: const Text('张风捷特烈'),
       actions: _buildActions(),
       elevation: 5,
@@ -100,6 +100,7 @@ class _CupertinoSliverRefreshControlDemoState
         background: Image.asset(
           "assets/images/caver.webp",
           fit: BoxFit.cover,
+          package: 'flutter_unit',
         ),
       ),
     );

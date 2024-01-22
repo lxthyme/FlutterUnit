@@ -34,7 +34,7 @@ class _SelectRawChipState extends State<SelectRawChip> {
       deleteIconColor: Colors.red,
       selectedColor: Colors.orangeAccent.withAlpha(44),
       label: const Text('张风捷特烈'),
-      avatar: Image.asset("assets/images/icon_head.webp"),
+      avatar: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
       elevation: 3,
       pressElevation: 5,
       shadowColor: Colors.orangeAccent,

@@ -34,6 +34,7 @@ class _CustomOpacityState extends State<CustomOpacity> {
         child: Image.asset(// 图片
           'assets/images/icon_head.webp',
           width: 100,
+          package: 'flutter_unit',
         ),
       );
   Widget _buildSlider() => Slider(

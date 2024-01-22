@@ -93,7 +93,7 @@ class CupertinoSliverNavigationBarDemo extends StatelessWidget {
 
   Widget _buildLeading() => Container(
       margin: const EdgeInsets.all(10),
-      child: Image.asset('assets/images/icon_head.webp'));
+      child: Image.asset('assets/images/icon_head.webp', package: 'flutter_unit'));
 
 
   String colorString(Color color) =>

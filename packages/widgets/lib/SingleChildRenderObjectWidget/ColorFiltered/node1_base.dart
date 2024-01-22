@@ -51,7 +51,7 @@ class _CustomColorFilteredState extends State<CustomColorFiltered> {
         height: 58,
         child: ColorFiltered(
             child:
-                const Image(image: AssetImage("assets/images/icon_head.webp")),
+                const Image(image: AssetImage("assets/images/icon_head.webp", package: 'flutter_unit')),
             colorFilter: ColorFilter.mode(_color, m)),
       );
 

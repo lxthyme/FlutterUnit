@@ -21,7 +21,7 @@ class _DunDunViewState extends State<DunDunView> {
   }
 
   void loadImage() async {
-    ByteData data2 = await rootBundle.load('assets/images/logo1.webp');
+    ByteData data2 = await rootBundle.load('packages/flutter_unit/assets/images/logo1.webp');
     image = await decodeImageFromList(data2.buffer.asUint8List());
     if (mounted) setState(() {});
   }

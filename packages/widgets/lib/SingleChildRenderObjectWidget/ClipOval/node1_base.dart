@@ -25,6 +25,7 @@ class CustomClipOval extends StatelessWidget {
             "assets/images/wy_300x200.webp",
             width: 150,
             height: 100,
+            package: 'flutter_unit',
           ),
         ),
         ClipOval(
@@ -33,6 +34,7 @@ class CustomClipOval extends StatelessWidget {
             width: 100,
             height: 100,
             fit: BoxFit.cover,
+            package: 'flutter_unit',
           ),
         ),
       ],

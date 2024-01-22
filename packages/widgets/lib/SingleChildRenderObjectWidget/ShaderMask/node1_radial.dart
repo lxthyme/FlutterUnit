@@ -30,6 +30,7 @@ class RadialShaderMask extends StatelessWidget {
             'assets/images/icon_head.webp',
             height: 70,
             width: 70,
+            package: 'flutter_unit',
           ),
         ),
         ShaderMask(

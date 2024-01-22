@@ -25,6 +25,7 @@ class CenterSliceImage extends StatelessWidget {
         "assets/images/right_chat.png",
         centerSlice: const Rect.fromLTRB(9, 27, 60, 27 + 1.0),
         fit: BoxFit.fill,
+        package: 'flutter_unit',
       ),
     );
   }

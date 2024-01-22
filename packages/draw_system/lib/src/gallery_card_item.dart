@@ -40,7 +40,7 @@ class GalleryCardItem extends StatelessWidget {
                     decoration: BoxDecoration(
                         image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: AssetImage(galleryInfo.image)),
+                            image: AssetImage(galleryInfo.image, package: 'flutter_unit')),
                         borderRadius: const BorderRadius.only(
                           topLeft: Radius.circular(20),
                           topRight: Radius.circular(20),

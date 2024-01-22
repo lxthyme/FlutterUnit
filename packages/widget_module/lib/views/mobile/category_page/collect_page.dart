@@ -89,7 +89,7 @@ class _CollectPageState extends State<CollectPage>
               // Navigator.of(context).pushNamed(UnitRouter.login);
             },
             child: const CircleImage(
-              image: AssetImage('assets/images/icon_head.webp'),
+              image: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
               borderSize: 1.5,
             ),
           )),
@@ -123,6 +123,7 @@ class _CollectPageState extends State<CollectPage>
         background: Image.asset(
           "assets/images/$image",
           fit: BoxFit.cover,
+          package: 'flutter_unit',
         ),
       ),
       forceElevated: index,
@@ -169,7 +170,3 @@ class _CollectPageState extends State<CollectPage>
   @override
   bool get wantKeepAlive => true;
 }
-
-
-
-

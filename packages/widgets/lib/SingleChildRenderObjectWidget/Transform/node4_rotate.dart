@@ -6,7 +6,7 @@ import 'matrix4_shower.dart';
 
 /// create by 张风捷特烈 on 2020/4/30
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 
 //    {
 //      "widgetId": 78,
@@ -65,6 +65,7 @@ class _RotateTransformState extends State<RotateTransform> {
           child: Image.asset(
             'assets/images/wy_300x200.webp',
             fit: BoxFit.cover,
+            package: 'flutter_unit',
           )),
     );
   }

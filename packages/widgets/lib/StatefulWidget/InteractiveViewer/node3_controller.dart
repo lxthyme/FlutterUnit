@@ -86,7 +86,7 @@ class _InteractiveViewerDemo3State extends State<InteractiveViewerDemo3>
             minScale: 0.1,
             maxScale: 1.8,
             onInteractionStart: _onInteractionStart,
-            child: Image.asset('assets/images/caver.webp'),
+            child: Image.asset('assets/images/caver.webp', package: 'flutter_unit'),
           ),
         ),
         Row(

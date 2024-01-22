@@ -27,7 +27,7 @@ class CustomImageIcon extends StatelessWidget {
       spacing: 10,
       children: data.keys
           .map((e) => ImageIcon(
-        const AssetImage("assets/images/leaf.webp"),
+        const AssetImage("assets/images/leaf.webp", package: 'flutter_unit'),
                 color: e,
                 size: data[e],
               ))

@@ -2,7 +2,7 @@
 
 /// create by 张风捷特烈 on 2020/4/25
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 
 //    {
 //      "widgetId": 11,
@@ -24,7 +24,7 @@ class CustomChip extends StatelessWidget {
       spacing: 20,
       children: <Widget>[
         Chip(
-          avatar: Image.asset("assets/images/icon_head.webp"),
+          avatar: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
           label: const Text("张风捷特烈"),
           padding: const EdgeInsets.all(5),
           labelPadding: const EdgeInsets.all(5),
@@ -32,7 +32,7 @@ class CustomChip extends StatelessWidget {
         const Chip(
           avatar: CircleAvatar(
               backgroundImage:
-              AssetImage("assets/images/wy_200x300.webp")),
+              AssetImage("assets/images/wy_200x300.webp", package: 'flutter_unit')),
           label: Text("百里巫缨"),
           padding: EdgeInsets.all(8),
           labelPadding: EdgeInsets.all(6),

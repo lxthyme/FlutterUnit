@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /// create by 张风捷特烈 on 2020/6/16
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 
 //    {
 //      "widgetId": 307,
@@ -42,6 +42,7 @@ class SliverOverlapAbsorberDemo extends StatelessWidget {
                         background: Image.asset(
                           "assets/images/wy_300x200_filter.webp",
                           fit: BoxFit.cover,
+                          package: 'flutter_unit',
                         ),
                       ),
                       bottom: TabBar(

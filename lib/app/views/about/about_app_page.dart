@@ -30,6 +30,7 @@ class AboutAppPage extends StatelessWidget {
                   child: Image.asset(
                     'assets/images/sabar.webp',
                     fit: BoxFit.cover,
+                    package: 'flutter_unit',
                   ),
                 ),
                 _buildBar(context),
@@ -43,7 +44,7 @@ class AboutAppPage extends StatelessWidget {
                       child: CircleImage(
                         size: 100,
                         shadowColor: Theme.of(context).primaryColor,
-                        image: const AssetImage('assets/images/icon_head.webp'),
+                        image: const AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
                       ),
                     )),
               ],

@@ -25,14 +25,14 @@ class CustomGridTile extends StatelessWidget {
           backgroundColor: Colors.blue.withAlpha(120),
           trailing: const Icon(Icons.star, color: Colors.red),
           leading: const CircleAvatar(
-            backgroundImage: AssetImage("assets/images/wy_200x300.webp"),
+            backgroundImage: AssetImage("assets/images/wy_200x300.webp", package: 'flutter_unit'),
           ),
           title: const Text("百里·巫缨"),
           subtitle: const Text("倾国必倾城"),
         ),
         child: Opacity(
           opacity: 0.5,
-          child: Image.asset("assets/images/sabar.webp", fit: BoxFit.cover),
+          child: Image.asset("assets/images/sabar.webp", fit: BoxFit.cover, package: 'flutter_unit'),
         ),
         footer: const Padding(
           padding: EdgeInsets.all(8.0),

@@ -29,7 +29,7 @@ class BugUnitPage extends StatelessWidget {
                     // Navigator.of(context).pushNamed(UnitRouter.issues_point);
                   },
                   child: const CircleImage(
-                    image: AssetImage('assets/images/icon_head.webp'),
+                    image: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
                     size: 80,
                   ),
                 ),

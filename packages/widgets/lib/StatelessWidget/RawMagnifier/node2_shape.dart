@@ -33,7 +33,7 @@ class _MagnifierStarShapeState extends State<MagnifierStarShape> {
             onPanEnd: _onPanEnd,
             onPanUpdate: _onPanUpdate,
             onPanCancel: _onPanCancel,
-            child: Image.asset('assets/images/sabar_bar.webp')),
+            child: Image.asset('assets/images/sabar_bar.webp', package: 'flutter_unit')),
         Text("张风捷特烈",style: TextStyle(color: Colors.white),),
         if(_show)
           Positioned(

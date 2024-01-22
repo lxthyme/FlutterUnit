@@ -49,11 +49,11 @@ class CustomUAGHP extends StatelessWidget {
         currentAccountPicture: Container(
           padding: const EdgeInsets.all(15.0),
           child: const CircleAvatar(
-            backgroundImage: AssetImage("assets/images/icon_head.webp"),
+            backgroundImage: AssetImage("assets/images/icon_head.webp", package: 'flutter_unit'),
           ),
         ),
         decoration: const BoxDecoration(
-          image: DecorationImage(image: AssetImage("assets/images/caver.webp")),
+          image: DecorationImage(image: AssetImage("assets/images/caver.webp", package: 'flutter_unit')),
         ),
       ),
     );

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /// create by 张风捷特烈 on 2020/4/27
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 
 //     {
 //      "widgetId": 37,
@@ -25,6 +25,7 @@ class CustomGridPage extends StatelessWidget {
             interval: 50,
             child: Image.asset(
               "assets/images/wy_300x200.webp",
+              package: 'flutter_unit',
               fit: BoxFit.cover,
             )));
   }

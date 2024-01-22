@@ -1,7 +1,7 @@
 
 /// create by 张风捷特烈 on 2020-03-26
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 
 //    {
 //      "widgetId": 155,
@@ -71,7 +71,7 @@ class CustomDrawerHeader extends StatelessWidget {
             topRight:Radius.circular(40)
         ),
         image: DecorationImage(
-            image: AssetImage('assets/images/caver.webp'),
+            image: AssetImage('assets/images/caver.webp', package: 'flutter_unit'),
             fit: BoxFit.cover),
       ),
       child: Text(

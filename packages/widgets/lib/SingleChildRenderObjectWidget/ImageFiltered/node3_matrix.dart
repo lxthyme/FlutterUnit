@@ -69,6 +69,7 @@ class _TargetContent extends StatelessWidget {
       child: Image.asset(
         'assets/images/sabar.webp',
         fit: BoxFit.cover,
+        package: 'flutter_unit',
       ),
     );
   }

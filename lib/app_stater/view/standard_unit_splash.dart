@@ -43,7 +43,7 @@ class _SplashBody extends StatelessWidget {
         const SplashTopBar(
           leading: Text('Flutter Unit',style: titleStyle),
           logo: CircleAvatar(
-            backgroundImage: AssetImage('assets/images/icon_head.webp'),
+            backgroundImage: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
             radius: 14,
           ),
         ),

@@ -41,7 +41,7 @@ class _ListTileSimpleState extends State<_ListTileSimple> {
       margin: const EdgeInsets.all(10),
       color: Colors.grey.withAlpha(22),
       child: ListTile(
-        leading: Image.asset("assets/images/icon_head.webp"),
+        leading: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
         selected: _selected,
         title: const Text("以梦为马"),
         subtitle: const Text("海子"),

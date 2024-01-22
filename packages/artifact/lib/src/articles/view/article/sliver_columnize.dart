@@ -34,7 +34,7 @@ class _ColumnizeViewPageState extends State<ColumnizeViewPage> {
               child: Row(
                 children: [
                   CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/icon_head.webp',),
+                    backgroundImage: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
                     backgroundColor: Colors.transparent,
                     radius: 10,
                   ),

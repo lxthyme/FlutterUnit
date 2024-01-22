@@ -24,10 +24,10 @@ class BurstFlow extends StatefulWidget {
       alignment: Alignment.center,
       child: BurstFlow(
           children: data
-              .map((e) => CircleAvatar(backgroundImage: AssetImage(e)))
+              .map((e) => CircleAvatar(backgroundImage: AssetImage(e, package: 'flutter_unit')))
               .toList(),
           menu: const CircleAvatar(
-            backgroundImage: AssetImage('assets/images/icon_head.webp'),
+            backgroundImage: AssetImage('assets/images/icon_head.webp', package: 'flutter_unit'),
           )));
 
   final List<Widget> children;

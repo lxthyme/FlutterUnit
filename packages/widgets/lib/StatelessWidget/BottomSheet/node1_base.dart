@@ -54,7 +54,7 @@ class _CustomBottomSheetState extends State<CustomBottomSheet> {
         height: 250,
             decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/images/sabar_bar.webp'),
+                    image: AssetImage('assets/images/sabar_bar.webp', package: 'flutter_unit'),
                     fit: BoxFit.cover),
                 borderRadius: BorderRadius.only(
                   topRight: Radius.circular(60),

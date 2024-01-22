@@ -61,7 +61,7 @@ class UnitArcBackground extends StatelessWidget {
     return SizedBox(
       height: height,
       child: ArcBackground(
-        image: const AssetImage("assets/images/caver.webp"),
+        image: const AssetImage("assets/images/caver.webp", package: 'flutter_unit'),
         child: Container(
           padding: const EdgeInsets.all(30),
           decoration: BoxDecoration(
@@ -71,6 +71,7 @@ class UnitArcBackground extends StatelessWidget {
               roundColor: Colors.blue,
               image: AssetImage(
                 'assets/images/sabar.webp',
+                package: 'flutter_unit',
               )),
         ),
       ),

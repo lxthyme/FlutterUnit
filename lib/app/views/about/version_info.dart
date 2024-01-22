@@ -12,7 +12,7 @@ import 'version/version_shower.dart';
 
 /// create by 张风捷特烈 on 2020/6/16
 /// contact me by email 1981462002@qq.com
-/// 说明: 
+/// 说明:
 
 class VersionInfo extends StatelessWidget {
   const VersionInfo({Key? key}) : super(key: key);
@@ -60,7 +60,7 @@ class VersionInfo extends StatelessWidget {
       crossAxisAlignment: WrapCrossAlignment.center,
       spacing: 10,
       children: const [
-        CircleImage(image: AssetImage("assets/images/icon_head.webp"),size: 80,),
+        CircleImage(image: AssetImage("assets/images/icon_head.webp", package: 'flutter_unit'),size: 80,),
         Text('Flutter Unit',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
         VersionShower(),
       ],

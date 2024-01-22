@@ -37,7 +37,7 @@ class _DunDunPathPageState extends State<DunDunPathPage>with SingleTickerProvide
   }
 
   void loadImage() async {
-    ByteData data2 = await rootBundle.load('assets/images/logo1.webp');
+    ByteData data2 = await rootBundle.load('packages/flutter_unit/assets/images/logo1.webp');
     logo2Image = await decodeImageFromList(data2.buffer.asUint8List());
     if (mounted) setState(() {});
   }

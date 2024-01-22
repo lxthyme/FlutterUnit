@@ -31,7 +31,7 @@ class _DenseCheckBoxListTileState extends State<DenseCheckBoxListTile> {
         dense: true,
         checkColor: Colors.yellow,
         activeColor: Colors.orangeAccent,
-        secondary: Image.asset("assets/images/icon_head.webp"),
+        secondary: Image.asset("assets/images/icon_head.webp", package: 'flutter_unit'),
         title: const Text("张风捷特烈"),
         subtitle: const Text("@万花过尽知无物"),
         onChanged: (v) => setState(() => _selected = !_selected),

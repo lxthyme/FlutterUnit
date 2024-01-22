@@ -15,9 +15,7 @@ class AppStartListener extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocListener<AppStartBloc, AppStatus>(
-        listener: _listenAppStart,
-        child:child);
+    return BlocListener<AppStartBloc, AppStatus>(listener: _listenAppStart, child: child);
   }
 
   // 监听资源加载完毕，启动，触发事件
@@ -29,6 +27,9 @@ class AppStartListener extends StatelessWidget {
       context.read<WidgetsBloc>().add(const EventTabTap(WidgetFamily.statelessWidget));
       context.read<LikeWidgetBloc>().add(const EventLoadLikeData());
       context.read<CategoryBloc>().add(const EventLoadCategory());
+    }
+    if (state is AppStartFailed) {
+      debugPrint('-->state: $state\t\terror: ${state.error}');
     }
 
     if (state is AppStartSuccess) {
